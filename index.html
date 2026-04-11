@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed a Synthetic World</title>
+
+    <meta property="og:title" content="Seed a Synthetic World" />
+    <meta property="og:description" content="A roguelite world-seeding game. Guide the emergence of an artificial planet before Coherence collapses." />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Seed a Synthetic World" />
+    <meta name="twitter:description" content="A roguelite world-seeding game. Guide the emergence of an artificial planet before Coherence collapses." />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            width: 100%;
+            min-height: 100%;
+            background: #080c0e;
+            color: #d0dde0;
+            font-family: 'Share Tech Mono', 'Courier New', monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 560px;
+            width: 100%;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .eyebrow {
+            font-size: 0.72rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: #3a5058;
+            margin-bottom: 1.8rem;
+        }
+
+        .title {
+            font-size: clamp(1.8rem, 7vw, 3rem);
+            letter-spacing: 0.03em;
+            color: #ffffff;
+            line-height: 1.15;
+        }
+
+        .title .accent {
+            color: #3dcfb0;
+        }
+
+        .subtitle {
+            margin-top: 0.6rem;
+            font-size: 0.8rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #3a5058;
+        }
+
+        .tagline {
+            margin-top: 1.8rem;
+            font-size: clamp(0.85rem, 2.5vw, 0.98rem);
+            color: #7a9ea8;
+            line-height: 1.75;
+            letter-spacing: 0.02em;
+        }
+
+        .divider {
+            margin: 2.5rem auto;
+            width: 48px;
+            height: 2px;
+            background: #3dcfb0;
+            opacity: 0.4;
+        }
+
+        .body-copy {
+            font-size: 0.88rem;
+            color: #5a7a84;
+            line-height: 1.8;
+            letter-spacing: 0.02em;
+        }
+
+        .body-copy + .body-copy {
+            margin-top: 1rem;
+        }
+
+        .cta-label {
+            margin-top: 2.5rem;
+            font-size: 0.72rem;
+            color: #3a5058;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .cta-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            align-items: center;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 0.85rem 2.2rem;
+            border: 1px solid #3dcfb0;
+            color: #3dcfb0;
+            font-family: inherit;
+            font-size: 0.9rem;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .cta-btn:hover {
+            background: #3dcfb0;
+            color: #080c0e;
+        }
+
+        .resources {
+            margin-top: 2.8rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.6rem;
+            text-align: left;
+        }
+
+        .resource-card {
+            border: 1px solid #131e22;
+            background: #0c1418;
+            padding: 0.9rem 0.8rem;
+        }
+
+        .resource-name {
+            font-size: 0.72rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #3dcfb0;
+            opacity: 0.7;
+        }
+
+        .resource-desc {
+            margin-top: 0.35rem;
+            font-size: 0.7rem;
+            color: #3a5058;
+            line-height: 1.45;
+        }
+
+        .footer {
+            margin-top: 4rem;
+            font-size: 0.7rem;
+            color: #1e2e34;
+            letter-spacing: 0.06em;
+        }
+
+        .footer a {
+            color: #253840;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #5a7a84;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="eyebrow">A Quartermeat Game</div>
+
+        <h1 class="title">
+            Seed a <span class="accent">Synthetic</span> World
+        </h1>
+
+        <div class="subtitle">Roguelite &nbsp;&middot;&nbsp; World Simulation &nbsp;&middot;&nbsp; Android</div>
+
+        <p class="tagline">
+            The planet is already activating.<br>
+            Guide its emergence before Coherence collapses.
+        </p>
+
+        <div class="divider"></div>
+
+        <p class="body-copy">
+            Each run begins mid-process. A synthetic planet is already becoming something —
+            moisture spreading, life appearing, corruption creeping at the edges.
+            Your job is to shape what it becomes.
+        </p>
+
+        <p class="body-copy">
+            Manage three major planetary tracks. Buy temporary upgrades. React to events.
+            Watch the pixel-grid surface evolve in real time.
+            Push your luck until Coherence fails.
+        </p>
+
+        <p class="body-copy">
+            Some runs become ocean worlds. Some collapse into corruption.
+            Learn from each attempt. Unlock new seeds.
+        </p>
+
+        <p class="cta-label">Coming to Android</p>
+
+        <div class="cta-stack">
+            <a class="cta-btn" href="mailto:jeremy.williamson83@gmail.com?subject=Seed%20a%20Synthetic%20World%20%E2%80%94%20Tester%20Request">
+                Request Early Access
+            </a>
+        </div>
+
+        <div class="resources">
+            <div class="resource-card">
+                <div class="resource-name">Flux</div>
+                <div class="resource-desc">Primary run currency. Drives upgrades and decisions.</div>
+            </div>
+            <div class="resource-card">
+                <div class="resource-name">Biomass</div>
+                <div class="resource-desc">Ecological momentum. Fuels life-heavy builds.</div>
+            </div>
+            <div class="resource-card">
+                <div class="resource-name">Coherence</div>
+                <div class="resource-desc">World integrity. When it fails, the run ends.</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Quartermeat
+        </div>
+
+    </div>
+</body>
+</html>
